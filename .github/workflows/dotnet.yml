@@ -39,7 +39,7 @@ jobs:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: ExampleAWSBeanstalk
-        environment_name: Exampleawsbeanstalk-dev
+        environment_name: Exampleawsbeanstalk-env
         region: us-east-2
         version_label: ${{ github.run_id }}
         version_description: ${{ github.sha }}
